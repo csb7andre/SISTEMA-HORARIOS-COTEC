@@ -1,0 +1,24 @@
+{
+  "name": "hor4r105-cotec",
+  "productName": "HOR4-R105",
+  "version": "1.0.0",
+  "description": "Sistema de Escala COTEC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "COTEC",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0",
+    "@electron-forge/maker-squirrel": "^6.0.0",
+    "@electron-forge/maker-zip": "^6.0.0",
+    "electron": "^25.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
